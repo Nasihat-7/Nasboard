@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Nasboard 输入法</string>
+
+    <!-- 引导页面字符串 -->
+    <string name="setup_step_one">步骤 1：启用输入法</string>
+    <string name="setup_step_two">步骤 2：选择输入法</string>
+
+    <string name="setup_enable_hint">请先启用 Nasboard 输入法</string>
+    <string name="setup_select_hint">请将 Nasboard 设为默认输入法</string>
+
+    <string name="setup_enable_button">启用输入法</string>
+    <string name="setup_select_button">选择输入法</string>
+
+    <string name="setup_prev">上一步</string>
+    <string name="setup_next">下一步</string>
+    <string name="setup_done">完成</string>
+    <string name="setup_skip">跳过</string>
+    <string name="setup_skip_hint">确定要跳过设置吗？建议完成设置以获得最佳体验。</string>
+    <string name="setup_skip_yes">确定</string>
+    <string name="setup_skip_no">取消</string>
+
+    <!-- 主页字符串 -->
+    <string name="title_home">主页</string>
+    <string name="title_settings">设置</string>
+</resources>

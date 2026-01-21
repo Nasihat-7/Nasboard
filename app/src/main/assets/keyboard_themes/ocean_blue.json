@@ -1,0 +1,15 @@
+{
+  "name": "ocean_blue",
+  "displayName": "海洋蓝",
+  "backgroundColor": "#FFE3F2FD",
+  "typingKeyColor": "#FF29B6F6",
+  "functionKeyColor": "#FF81D4FA",
+  "pressedKeyColor": "#FF4FC3F7",
+  "textColor": "#FF01579B",
+  "specialKeyTextColor": "#FF01579B",
+  "keyCornerRadius": 12,
+  "keyGap": 6,
+  "normalTextSize": 45,
+  "specialTextSize": 40,
+  "shiftTextSize": 35
+}

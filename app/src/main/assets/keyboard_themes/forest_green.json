@@ -1,0 +1,15 @@
+{
+  "name": "forest_green",
+  "displayName": "森林绿",
+  "backgroundColor": "#FFE8F5E8",
+  "typingKeyColor": "#FF66BB6A",
+  "functionKeyColor": "#FFA5D6A7",
+  "pressedKeyColor": "#FF81C784",
+  "textColor": "#FF1B5E20",
+  "specialKeyTextColor": "#FF1B5E20",
+  "keyCornerRadius": 10,
+  "keyGap": 5,
+  "normalTextSize": 45,
+  "specialTextSize": 40,
+  "shiftTextSize": 35
+}

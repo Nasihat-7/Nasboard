@@ -1,0 +1,15 @@
+{
+  "name": "sunset_orange",
+  "displayName": "日落橙",
+  "backgroundColor": "#FFFBE9E7",
+  "typingKeyColor": "#FFFF7043",
+  "functionKeyColor": "#FFFFAB91",
+  "pressedKeyColor": "#FFFF8A65",
+  "textColor": "#FFBF360C",
+  "specialKeyTextColor": "#FFBF360C",
+  "keyCornerRadius": 14,
+  "keyGap": 4,
+  "normalTextSize": 45,
+  "specialTextSize": 40,
+  "shiftTextSize": 35
+}

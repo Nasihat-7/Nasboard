@@ -1,0 +1,132 @@
+{
+  "name": "cyrillic_kazakh",
+  "displayName": "Қаз",
+  "supportsShift": true,
+  "rtl": false,
+  "layouts": {
+    "default": [
+      [
+        { "type": "char", "code": "ё", "label": "ё", "width": 1.0 },
+        { "type": "char", "code": "ә", "label": "ә", "width": 1.0 },
+        { "type": "char", "code": "і", "label": "і", "width": 1.0 },
+        { "type": "char", "code": "ң", "label": "ң", "width": 1.0 },
+        { "type": "char", "code": "ғ", "label": "ғ", "width": 1.0 },
+        { "type": "char", "code": "ү", "label": "ү", "width": 1.0 },
+        { "type": "char", "code": "ұ", "label": "ұ", "width": 1.0 },
+        { "type": "char", "code": "қ", "label": "қ", "width": 1.0 },
+        { "type": "char", "code": "ө", "label": "ө", "width": 1.0 },
+        { "type": "char", "code": "һ", "label": "һ", "width": 1.0 },
+        { "type": "char", "code": "Ъ", "label": "Ъ", "width": 1.0 }
+      ],
+      [
+        { "type": "char", "code": "й", "label": "й", "width": 1.0 },
+        { "type": "char", "code": "ц", "label": "ц", "width": 1.0 },
+        { "type": "char", "code": "у", "label": "у", "width": 1.0 },
+        { "type": "char", "code": "к", "label": "к", "width": 1.0 },
+        { "type": "char", "code": "е", "label": "е", "width": 1.0 },
+        { "type": "char", "code": "н", "label": "н", "width": 1.0 },
+        { "type": "char", "code": "г", "label": "г", "width": 1.0 },
+        { "type": "char", "code": "ш", "label": "ш", "width": 1.0 },
+        { "type": "char", "code": "щ", "label": "щ", "width": 1.0 },
+        { "type": "char", "code": "з", "label": "з", "width": 1.0 },
+        { "type": "char", "code": "х", "label": "х", "width": 1.0 }
+      ],
+      [
+        { "type": "char", "code": "ф", "label": "ф", "width": 1.0 },
+        { "type": "char", "code": "ы", "label": "ы", "width": 1.0 },
+        { "type": "char", "code": "в", "label": "в", "width": 1.0 },
+        { "type": "char", "code": "а", "label": "а", "width": 1.0 },
+        { "type": "char", "code": "п", "label": "п", "width": 1.0 },
+        { "type": "char", "code": "р", "label": "р", "width": 1.0 },
+        { "type": "char", "code": "о", "label": "о", "width": 1.0 },
+        { "type": "char", "code": "л", "label": "л", "width": 1.0 },
+        { "type": "char", "code": "д", "label": "д", "width": 1.0 },
+        { "type": "char", "code": "ж", "label": "ж", "width": 1.0 },
+        { "type": "char", "code": "э", "label": "э", "width": 1.0 }
+      ],
+      [
+        { "type": "function", "code": "SHIFT", "label": "⇧", "width": 1.2 },
+        { "type": "char", "code": "я", "label": "я", "width": 1.0 },
+        { "type": "char", "code": "ч", "label": "ч", "width": 1.0 },
+        { "type": "char", "code": "с", "label": "с", "width": 1.0 },
+        { "type": "char", "code": "м", "label": "м", "width": 1.0 },
+        { "type": "char", "code": "и", "label": "и", "width": 1.0 },
+        { "type": "char", "code": "т", "label": "т", "width": 1.0 },
+        { "type": "char", "code": "ь", "label": "ь", "width": 1.0 },
+        { "type": "char", "code": "б", "label": "б", "width": 1.0 },
+        { "type": "char", "code": "ю", "label": "ю", "width": 1.0 },
+        { "type": "function", "code": "DEL", "label": "⌫", "width": 1.2 }
+      ],
+      [
+        { "type": "function", "code": "123", "label": "123", "width": 1.5 },
+        { "type": "char", "code": ",", "label": ",", "width": 2.0 },
+        { "type": "function", "code": "SPACE", "label": "␣", "width": 3.0 },
+        { "type": "char", "code": ".", "label": ".", "width": 1.0 },
+        { "type": "function", "code": "EMOJI", "label": "😊", "width": 1.0 },
+        { "type": "function", "code": "SWITCH_LANG", "label": "🌐", "width": 1.5 }
+      ]
+    ],
+    "shift": [
+      [
+        { "type": "char", "code": "Ё", "label": "Ё", "width": 1.0 },
+        { "type": "char", "code": "Ә", "label": "Ә", "width": 1.0 },
+        { "type": "char", "code": "І", "label": "І", "width": 1.0 },
+        { "type": "char", "code": "Ң", "label": "Ң", "width": 1.0 },
+        { "type": "char", "code": "Ғ", "label": "Ғ", "width": 1.0 },
+        { "type": "char", "code": "Ү", "label": "Ү", "width": 1.0 },
+        { "type": "char", "code": "Ұ", "label": "Ұ", "width": 1.0 },
+        { "type": "char", "code": "Қ", "label": "Қ", "width": 1.0 },
+        { "type": "char", "code": "Ө", "label": "Ө", "width": 1.0 },
+        { "type": "char", "code": "Һ", "label": "Һ", "width": 1.0 },
+        { "type": "char", "code": "Ъ", "label": "Ъ", "width": 1.0 }
+      ],
+      [
+        { "type": "char", "code": "Й", "label": "Й", "width": 1.0 },
+        { "type": "char", "code": "Ц", "label": "Ц", "width": 1.0 },
+        { "type": "char", "code": "У", "label": "У", "width": 1.0 },
+        { "type": "char", "code": "К", "label": "К", "width": 1.0 },
+        { "type": "char", "code": "Е", "label": "Е", "width": 1.0 },
+        { "type": "char", "code": "Н", "label": "Н", "width": 1.0 },
+        { "type": "char", "code": "Г", "label": "Г", "width": 1.0 },
+        { "type": "char", "code": "Ш", "label": "Ш", "width": 1.0 },
+        { "type": "char", "code": "Щ", "label": "Щ", "width": 1.0 },
+        { "type": "char", "code": "З", "label": "З", "width": 1.0 },
+        { "type": "char", "code": "Х", "label": "Х", "width": 1.0 }
+      ],
+      [
+        { "type": "char", "code": "Ф", "label": "Ф", "width": 1.0 },
+        { "type": "char", "code": "Ы", "label": "Ы", "width": 1.0 },
+        { "type": "char", "code": "В", "label": "В", "width": 1.0 },
+        { "type": "char", "code": "А", "label": "А", "width": 1.0 },
+        { "type": "char", "code": "П", "label": "П", "width": 1.0 },
+        { "type": "char", "code": "Р", "label": "Р", "width": 1.0 },
+        { "type": "char", "code": "О", "label": "О", "width": 1.0 },
+        { "type": "char", "code": "Л", "label": "Л", "width": 1.0 },
+        { "type": "char", "code": "Д", "label": "Д", "width": 1.0 },
+        { "type": "char", "code": "Ж", "label": "Ж", "width": 1.0 },
+        { "type": "char", "code": "Э", "label": "Э", "width": 1.0 }
+      ],
+      [
+        { "type": "function", "code": "SHIFT", "label": "⇪", "width": 1.2 },
+        { "type": "char", "code": "Я", "label": "Я", "width": 1.0 },
+        { "type": "char", "code": "Ч", "label": "Ч", "width": 1.0 },
+        { "type": "char", "code": "С", "label": "С", "width": 1.0 },
+        { "type": "char", "code": "М", "label": "М", "width": 1.0 },
+        { "type": "char", "code": "И", "label": "И", "width": 1.0 },
+        { "type": "char", "code": "Т", "label": "Т", "width": 1.0 },
+        { "type": "char", "code": "Ь", "label": "Ь", "width": 1.0 },
+        { "type": "char", "code": "Б", "label": "Б", "width": 1.0 },
+        { "type": "char", "code": "Ю", "label": "Ю", "width": 1.0 },
+        { "type": "function", "code": "DEL", "label": "⌫", "width": 1.2 }
+      ],
+      [
+        { "type": "function", "code": "123", "label": "123", "width": 1.5 },
+        { "type": "char", "code": ",", "label": ",", "width": 2.0 },
+        { "type": "function", "code": "SPACE", "label": "␣", "width": 3.0 },
+        { "type": "char", "code": ".", "label": ".", "width": 1.0 },
+        { "type": "function", "code": "EMOJI", "label": "😊", "width": 1.0 },
+        { "type": "function", "code": "SWITCH_LANG", "label": "🌐", "width": 1.5 }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<input-method xmlns:android="http://schemas.android.com/apk/res/android">
+    <subtype
+        android:imeSubtypeMode="keyboard"
+        android:imeSubtypeLocale="en"
+        android:label="Nasboard Keyboard"
+        android:imeSubtypeExtraValue="AsciiCapable"
+        android:icon="@mipmap/ic_launcher" />
+
+    <subtype
+        android:imeSubtypeMode="keyboard"
+        android:imeSubtypeLocale="en_US"
+        android:label="Nasboard English"
+        android:imeSubtypeExtraValue="AsciiCapable" />
+
+    <subtype
+        android:imeSubtypeMode="keyboard"
+        android:imeSubtypeLocale="kk"
+        android:label="Nasboard Kazakh"
+        android:imeSubtypeExtraValue="AsciiCapable" />
+
+    <subtype
+        android:imeSubtypeMode="keyboard"
+        android:imeSubtypeLocale="ar"
+        android:label="Nasboard Arabic"
+        android:imeSubtypeExtraValue="AsciiCapable" />
+</input-method>

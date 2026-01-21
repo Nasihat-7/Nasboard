@@ -1,0 +1,20 @@
+{
+  "name": "youtube",
+  "displayName": "YouTube",
+  "backgroundColor": "#FFDEDEDE",
+  "typingKeyColor": "#FFFFFFFF",
+  "functionKeyColor": "#FFDEDEDE",
+  "pressedKeyColor": "#FFFFFFFF",
+  "textColor": "#FF000000",
+  "specialKeyTextColor": "#FF000000",
+  "keyCornerRadius": 8,
+  "keyGap": 4,
+  "normalTextSize": 45,
+  "specialTextSize": 40,
+  "shiftTextSize": 35,
+  "shadowEnabled": false,
+  "shadowColor": "#40000000",
+  "shadowOffsetX": 0,
+  "shadowOffsetY": 4,
+  "shadowBlur": 8
+}

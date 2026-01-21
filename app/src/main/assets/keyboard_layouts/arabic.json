@@ -1,0 +1,55 @@
+{
+  "name": "arabic",
+  "displayName": "قاز",
+  "supportsShift": false,
+  "rtl": true,
+  "layouts": {
+    "default": [
+      [
+        { "type": "char", "code": "چ", "label": "چ", "width": 1.0 },
+        { "type": "char", "code": "ۋ", "label": "ۋ", "width": 1.0 },
+        { "type": "char", "code": "ء", "label": "ء", "width": 1.0 },
+        { "type": "char", "code": "ر", "label": "ر", "width": 1.0 },
+        { "type": "char", "code": "ت", "label": "ت", "width": 1.0 },
+        { "type": "char", "code": "ي", "label": "ي", "width": 1.0 },
+        { "type": "char", "code": "ۇ", "label": "ۇ", "width": 1.0 },
+        { "type": "char", "code": "ڭ", "label": "ڭ", "width": 1.0 },
+        { "type": "char", "code": "و", "label": "و", "width": 1.0 },
+        { "type": "char", "code": "پ", "label": "پ", "width": 1.0 }
+      ],
+      [
+        { "type": "char", "code": "ھ", "label": "ھ", "width": 1.0 },
+        { "type": "char", "code": "س", "label": "س", "width": 1.0 },
+        { "type": "char", "code": "د", "label": "د", "width": 1.0 },
+        { "type": "char", "code": "ا", "label": "ا", "width": 1.0 },
+        { "type": "char", "code": "ە", "label": "ە", "width": 1.0 },
+        { "type": "char", "code": "ى", "label": "ى", "width": 1.0 },
+        { "type": "char", "code": "ق", "label": "ق", "width": 1.0 },
+        { "type": "char", "code": "ك", "label": "ك", "width": 1.0 },
+        { "type": "char", "code": "ل", "label": "ل", "width": 1.0 },
+        { "type": "char", "code": "ف", "label": "ف", "width": 1.0 }
+      ],
+      [
+        { "type": "char", "code": "ز", "label": "ز", "width": 1.0 },
+        { "type": "char", "code": "ش", "label": "ش", "width": 1.0 },
+        { "type": "char", "code": "ع", "label": "ع", "width": 1.0 },
+        { "type": "char", "code": "ۆ", "label": "ۆ", "width": 1.0 },
+        { "type": "char", "code": "ب", "label": "ب", "width": 1.0 },
+        { "type": "char", "code": "ن", "label": "ن", "width": 1.0 },
+        { "type": "char", "code": "م", "label": "م", "width": 1.0 },
+        { "type": "char", "code": "گ", "label": "گ", "width": 1.0 },
+        { "type": "char", "code": "ح", "label": "ح", "width": 1.0 },
+        { "type": "char", "code": "ج", "label": "ج", "width": 1.0 }
+      ],
+      [
+        { "type": "function", "code": "123", "label": "123", "width": 1.5 },
+        { "type": "char", "code": "’", "label": "’", "width": 1.0 },
+        { "type": "char", "code": ".", "label": ".", "width": 1.0 },
+        { "type": "function", "code": "SPACE", "label": "␣", "width": 3.0 },
+        { "type": "function", "code": "EMOJI", "label": "😊", "width": 1.0 },
+        { "type": "function", "code": "DEL", "label": "⌫", "width": 1.0 },
+        { "type": "function", "code": "SWITCH_LANG", "label": "🌐", "width": 1.5 }
+      ]
+    ]
+  }
+}

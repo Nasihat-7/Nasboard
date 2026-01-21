@@ -1,0 +1,15 @@
+{
+  "name": "midnight_purple",
+  "displayName": "午夜紫",
+  "backgroundColor": "#FF212121",
+  "typingKeyColor": "#FF7B1FA2",
+  "functionKeyColor": "#FF9C27B0",
+  "pressedKeyColor": "#FF8E24AA",
+  "textColor": "#FFFFFFFF",
+  "specialKeyTextColor": "#FFFFFFFF",
+  "keyCornerRadius": 8,
+  "keyGap": 4,
+  "normalTextSize": 45,
+  "specialTextSize": 40,
+  "shiftTextSize": 35
+}

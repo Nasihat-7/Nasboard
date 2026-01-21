@@ -1,0 +1,120 @@
+{
+  "name": "latin",
+  "displayName": "Qaz",
+  "supportsShift": true,
+  "rtl": false,
+  "layouts": {
+    "default": [
+      [
+        { "type": "char", "code": "'", "label": "'", "width": 1.0 },
+        { "type": "char", "code": "ä", "label": "ä", "width": 1.0 },
+        { "type": "char", "code": "ğ", "label": "ğ", "width": 1.0 },
+        { "type": "char", "code": "i", "label": "i", "width": 1.0 },
+        { "type": "char", "code": "ñ", "label": "ñ", "width": 1.0 },
+        { "type": "char", "code": "ö", "label": "ö", "width": 1.0 },
+        { "type": "char", "code": "ū", "label": "ū", "width": 1.0 },
+        { "type": "char", "code": "ü", "label": "ü", "width": 1.0 },
+        { "type": "char", "code": "ş", "label": "ş", "width": 1.0 },
+        { "type": "char", "code": "?", "label": "?", "width": 1.0 }
+      ],
+      [
+        { "type": "char", "code": "q", "label": "q", "width": 1.0 },
+        { "type": "char", "code": "w", "label": "w", "width": 1.0 },
+        { "type": "char", "code": "e", "label": "e", "width": 1.0 },
+        { "type": "char", "code": "r", "label": "r", "width": 1.0 },
+        { "type": "char", "code": "t", "label": "t", "width": 1.0 },
+        { "type": "char", "code": "y", "label": "y", "width": 1.0 },
+        { "type": "char", "code": "u", "label": "u", "width": 1.0 },
+        { "type": "char", "code": "ı", "label": "ı", "width": 1.0 },
+        { "type": "char", "code": "o", "label": "o", "width": 1.0 },
+        { "type": "char", "code": "p", "label": "p", "width": 1.0 }
+      ],
+      [
+        { "type": "char", "code": "a", "label": "a", "width": 1.0 },
+        { "type": "char", "code": "s", "label": "s", "width": 1.0 },
+        { "type": "char", "code": "d", "label": "d", "width": 1.0 },
+        { "type": "char", "code": "f", "label": "f", "width": 1.0 },
+        { "type": "char", "code": "g", "label": "g", "width": 1.0 },
+        { "type": "char", "code": "h", "label": "h", "width": 1.0 },
+        { "type": "char", "code": "j", "label": "j", "width": 1.0 },
+        { "type": "char", "code": "k", "label": "k", "width": 1.0 },
+        { "type": "char", "code": "l", "label": "l", "width": 1.0 }
+      ],
+      [
+        { "type": "function", "code": "SHIFT", "label": "⇧", "width": 1.2 },
+        { "type": "char", "code": "z", "label": "z", "width": 1.0 },
+        { "type": "char", "code": "x", "label": "x", "width": 1.0 },
+        { "type": "char", "code": "c", "label": "c", "width": 1.0 },
+        { "type": "char", "code": "v", "label": "v", "width": 1.0 },
+        { "type": "char", "code": "b", "label": "b", "width": 1.0 },
+        { "type": "char", "code": "n", "label": "n", "width": 1.0 },
+        { "type": "char", "code": "m", "label": "m", "width": 1.0 },
+        { "type": "function", "code": "DEL", "label": "⌫", "width": 1.2 }
+      ],
+      [
+        { "type": "function", "code": "123", "label": "123", "width": 1.5 },
+        { "type": "char", "code": ",", "label": ",", "width": 2.0 },
+        { "type": "function", "code": "SPACE", "label": "␣", "width": 3.0 },
+        { "type": "char", "code": ".", "label": ".", "width": 1.0 },
+        { "type": "function", "code": "EMOJI", "label": "😊", "width": 1.0 },
+        { "type": "function", "code": "SWITCH_LANG", "label": "🌐", "width": 1.5 }
+      ]
+    ],
+    "shift": [
+      [
+        { "type": "char", "code": "Ä", "label": "Ä", "width": 1.0 },
+        { "type": "char", "code": "Ğ", "label": "Ğ", "width": 1.0 },
+        { "type": "char", "code": "İ", "label": "İ", "width": 1.0 },
+        { "type": "char", "code": "Ñ", "label": "Ñ", "width": 1.0 },
+        { "type": "char", "code": "Ö", "label": "Ö", "width": 1.0 },
+        { "type": "char", "code": "Ū", "label": "Ū", "width": 1.0 },
+        { "type": "char", "code": "Ü", "label": "Ü", "width": 1.0 },
+        { "type": "char", "code": "Ş", "label": "Ş", "width": 1.0 }
+      ],
+      [
+        { "type": "char", "code": "Q", "label": "Q", "width": 1.0 },
+        { "type": "char", "code": "W", "label": "W", "width": 1.0 },
+        { "type": "char", "code": "E", "label": "E", "width": 1.0 },
+        { "type": "char", "code": "R", "label": "R", "width": 1.0 },
+        { "type": "char", "code": "T", "label": "T", "width": 1.0 },
+        { "type": "char", "code": "Y", "label": "Y", "width": 1.0 },
+        { "type": "char", "code": "U", "label": "U", "width": 1.0 },
+        { "type": "char", "code": "I", "label": "I", "width": 1.0 },
+        { "type": "char", "code": "O", "label": "O", "width": 1.0 },
+        { "type": "char", "code": "P", "label": "P", "width": 1.0 },
+        { "type": "char", "code": "A", "label": "A", "width": 1.0 },
+        { "type": "char", "code": "S", "label": "S", "width": 1.0 }
+      ],
+      [
+        { "type": "char", "code": "A", "label": "A", "width": 1.0 },
+        { "type": "char", "code": "S", "label": "S", "width": 1.0 },
+        { "type": "char", "code": "D", "label": "D", "width": 1.0 },
+        { "type": "char", "code": "F", "label": "F", "width": 1.0 },
+        { "type": "char", "code": "G", "label": "G", "width": 1.0 },
+        { "type": "char", "code": "H", "label": "H", "width": 1.0 },
+        { "type": "char", "code": "J", "label": "J", "width": 1.0 },
+        { "type": "char", "code": "K", "label": "K", "width": 1.0 },
+        { "type": "char", "code": "L", "label": "L", "width": 1.0 }
+      ],
+      [
+        { "type": "function", "code": "SHIFT", "label": "⇪", "width": 1.2 },
+        { "type": "char", "code": "Z", "label": "Z", "width": 1.0 },
+        { "type": "char", "code": "X", "label": "X", "width": 1.0 },
+        { "type": "char", "code": "C", "label": "C", "width": 1.0 },
+        { "type": "char", "code": "V", "label": "V", "width": 1.0 },
+        { "type": "char", "code": "B", "label": "B", "width": 1.0 },
+        { "type": "char", "code": "N", "label": "N", "width": 1.0 },
+        { "type": "char", "code": "M", "label": "M", "width": 1.0 },
+        { "type": "function", "code": "DEL", "label": "⌫", "width": 1.2 }
+      ],
+      [
+        { "type": "function", "code": "123", "label": "123", "width": 1.5 },
+        { "type": "char", "code": ",", "label": ",", "width": 2.0 },
+        { "type": "function", "code": "SPACE", "label": "␣", "width": 3.0 },
+        { "type": "char", "code": ".", "label": ".", "width": 1.0 },
+        { "type": "function", "code": "EMOJI", "label": "😊", "width": 1.0 },
+        { "type": "function", "code": "SWITCH_LANG", "label": "🌐", "width": 1.5 }
+      ]
+    ]
+  }
+}

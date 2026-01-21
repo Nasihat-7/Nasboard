@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="8dp">
+
+    <RelativeLayout
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@android:color/transparent">
+
+        <TextView
+            android:id="@+id/emoji_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:gravity="center" />
+
+        <!-- 变体指示器 -->
+        <View
+            android:id="@+id/variant_indicator"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/variant_indicator"
+            android:visibility="gone" />
+
+        <!-- 收藏指示器 -->
+        <View
+            android:id="@+id/favorite_indicator"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/favorite_indicator"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+{
+  "name": "nba",
+  "displayName": "NBA",
+  "backgroundColor": "#FF006AB7",
+  "typingKeyColor": "#FFFFFFFF",
+  "functionKeyColor": "#FF006AB7",
+  "pressedKeyColor": "#FFFFFFFF",
+  "textColor": "#FFFFFFFF",
+  "specialKeyTextColor": "#FFFFFFFF",
+  "keyCornerRadius": 8,
+  "keyGap": 4,
+  "normalTextSize": 32,
+  "specialTextSize": 28,
+  "shiftTextSize": 24,
+  "shadowEnabled": false,
+  "shadowColor": "#40000000",
+  "shadowOffsetX": 0,
+  "shadowOffsetY": 4,
+  "shadowBlur": 8
+}
