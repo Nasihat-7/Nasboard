@@ -30,13 +30,13 @@
         { "type": "char", "code": "\"", "label": "\"", "width": 1.0 }
       ],
       [
-        { "type": "function", "code": "ABC", "label": "ABC", "width": 1.5 },
+        { "type": "char", "code": "*", "label": "*", "width": 1.0 },
         { "type": "char", "code": ".", "label": ".", "width": 1.0 },
         { "type": "char", "code": ",", "label": ",", "width": 1.0 },
         { "type": "char", "code": "?", "label": "?", "width": 1.0 },
         { "type": "char", "code": "!", "label": "!", "width": 1.0 },
         { "type": "char", "code": "'", "label": "'", "width": 1.0 },
-        { "type": "function", "code": "DEL", "label": "⌫", "width": 1.2 }
+        { "type": "function", "code": "DEL", "label": "⌫", "width": 1.7 }
       ],
       [
         { "type": "function", "code": "ABC", "label": "ABC", "width": 1.5 },
