@@ -22,6 +22,7 @@ import com.example.nasboard.ime.emoji.EmojiView
 import com.example.nasboard.ime.dictionary.EnglishDictionaryManager
 import com.example.nasboard.ime.dictionary.RussianDictionaryManager
 import com.example.nasboard.ime.dictionary.KazakhUserDictManager
+import com.example.nasboard.ime.theme.ThemeManager
 import kotlinx.coroutines.CompletableDeferred
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -45,7 +46,7 @@ class NasInputMethodService : InputMethodService() {
     private var emojiView: EmojiView? = null
 
     // 当前键盘布局类型
-    private var currentKeyboardType: KeyboardType = KeyboardType.LATIN
+    private var currentKeyboardType: KeyboardType = KeyboardType.CYRILLIC_KAZAKH
 
     // 当前输入的字符序列（通用）
     private var currentInput = StringBuilder()

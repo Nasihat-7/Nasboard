@@ -8,6 +8,9 @@ import android.util.Log
 import android.view.MotionEvent
 import android.view.View
 import android.view.inputmethod.EditorInfo
+import com.example.nasboard.ime.theme.JsonThemeManager
+import com.example.nasboard.ime.theme.KeyboardTheme
+import com.example.nasboard.ime.theme.ThemeManager
 import kotlinx.coroutines.*
 
 class NasKeyboardView @JvmOverloads constructor(
@@ -34,7 +37,7 @@ class NasKeyboardView @JvmOverloads constructor(
     private var shiftState = 0
     private var lastShiftTime: Long = 0
     private var isNumeric = false
-    private var currentKeyboardType = KeyboardType.LATIN
+    private var currentKeyboardType = KeyboardType.CYRILLIC_KAZAKH
 
     // 视图状态
     private var currentLayoutConfig: KeyboardLayoutConfig? = null

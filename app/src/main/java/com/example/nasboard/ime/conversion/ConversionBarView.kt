@@ -9,10 +9,10 @@ import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
 import android.widget.LinearLayout
-import com.example.nasboard.KeyboardTheme
+import com.example.nasboard.ime.theme.KeyboardTheme
 import com.example.nasboard.KeyboardType
 import com.example.nasboard.R
-import com.example.nasboard.ThemeManager
+import com.example.nasboard.ime.theme.ThemeManager
 
 class ConversionBarView @JvmOverloads constructor(
     context: Context,

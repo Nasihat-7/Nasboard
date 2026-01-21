@@ -1,8 +1,9 @@
-package com.example.nasboard
+package com.example.nasboard.ime.theme
 
 import android.content.Context
 import android.content.SharedPreferences
 import android.util.Log
+import com.example.nasboard.ime.theme.ThemeInfo
 import com.google.gson.Gson
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

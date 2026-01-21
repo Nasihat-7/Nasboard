@@ -2,6 +2,7 @@ package com.example.nasboard
 
 import android.graphics.*
 import android.graphics.drawable.Drawable
+import com.example.nasboard.ime.theme.KeyboardTheme
 
 /**
  * 按键绘制器

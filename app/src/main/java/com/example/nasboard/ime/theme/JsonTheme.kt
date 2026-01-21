@@ -1,5 +1,7 @@
-package com.example.nasboard
+package com.example.nasboard.ime.theme
 
+import android.graphics.Color
+import com.example.nasboard.ime.theme.KeyboardTheme
 import com.google.gson.annotations.SerializedName
 
 /**
@@ -51,9 +53,9 @@ data class JsonTheme(
 
     private fun parseColor(colorString: String): Int {
         return try {
-            android.graphics.Color.parseColor(colorString)
+            Color.parseColor(colorString)
         } catch (e: Exception) {
-            android.graphics.Color.BLACK
+            Color.BLACK
         }
     }
 }

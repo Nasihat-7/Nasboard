@@ -8,8 +8,8 @@ import android.util.TypedValue
 import android.view.Gravity
 import android.view.View
 import android.widget.*
-import com.example.nasboard.KeyboardTheme
-import com.example.nasboard.ThemeManager
+import com.example.nasboard.ime.theme.KeyboardTheme
+import com.example.nasboard.ime.theme.ThemeManager
 
 class CandidateView @JvmOverloads constructor(
     context: Context,

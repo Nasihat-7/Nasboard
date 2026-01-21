@@ -1,4 +1,4 @@
-package com.example.nasboard
+package com.example.nasboard.ime.theme
 
 import android.content.Context
 import android.util.Log
@@ -66,11 +66,17 @@ class JsonThemeManager private constructor(private val context: Context) {
                                 val theme = gson.fromJson(reader, JsonTheme::class.java)
                                 val themeName = fileName.removeSuffix(".json")
                                 jsonThemes[themeName] = theme
-                                Log.d("JsonThemeManager", "Successfully loaded theme: ${theme.name} -> $themeName")
+                                Log.d(
+                                    "JsonThemeManager",
+                                    "Successfully loaded theme: ${theme.name} -> $themeName"
+                                )
                             }
                         }
                     } catch (e: Exception) {
-                        Log.e("JsonThemeManager", "Error loading theme file $fileName: ${e.message}")
+                        Log.e(
+                            "JsonThemeManager",
+                            "Error loading theme file $fileName: ${e.message}"
+                        )
                         e.printStackTrace()
                     }
                 }

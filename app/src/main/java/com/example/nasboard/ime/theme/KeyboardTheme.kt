@@ -1,4 +1,4 @@
-package com.example.nasboard
+package com.example.nasboard.ime.theme
 
 import android.graphics.Color
 

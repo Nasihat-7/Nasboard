@@ -1,5 +1,6 @@
-package com.example.nasboard
+package com.example.nasboard.ime.theme
 
+import android.R
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -19,8 +20,8 @@ class ThemeAdapter(
     }
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        private val themeName: TextView = itemView.findViewById(android.R.id.text1)
-        private val themeType: TextView = itemView.findViewById(android.R.id.text2)
+        private val themeName: TextView = itemView.findViewById(R.id.text1)
+        private val themeType: TextView = itemView.findViewById(R.id.text2)
 
         fun bind(themeItem: ThemeItem, onThemeSelected: (ThemeInfo) -> Unit) {
             when (themeItem) {
@@ -29,7 +30,7 @@ class ThemeAdapter(
                     themeType.visibility = View.GONE
                     itemView.isClickable = false
                     itemView.setBackgroundColor(
-                        ContextCompat.getColor(itemView.context, android.R.color.transparent)
+                        ContextCompat.getColor(itemView.context, R.color.transparent)
                     )
                 }
                 is ThemeItem.Theme -> {
@@ -50,12 +51,12 @@ class ThemeAdapter(
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val inflater = LayoutInflater.from(parent.context)
-        val view = inflater.inflate(android.R.layout.simple_list_item_2, parent, false)
+        val view = inflater.inflate(R.layout.simple_list_item_2, parent, false)
         return ViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.bind(getItem(position), onThemeSelected)
+        holder.bind(currentList[position], onThemeSelected)
     }
 
     fun submitThemes(themes: Map<String, List<ThemeInfo>>) {

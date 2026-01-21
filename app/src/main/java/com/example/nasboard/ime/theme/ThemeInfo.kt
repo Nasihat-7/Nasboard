@@ -1,4 +1,4 @@
-package com.example.nasboard
+package com.example.nasboard.ime.theme
 
 /**
  * 主题信息数据类
